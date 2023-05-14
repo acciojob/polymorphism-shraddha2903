@@ -10,6 +10,9 @@ public class Main {
         public int product(int x,int y,int z){
             return x*y*z;
         }
+        public double product(double x,double y){
+            return x*y;
+        }
 
     }
     public static void main(String args[])
@@ -17,6 +20,7 @@ public class Main {
         product p= new product();
         System.out.println(p.product(2,5));
         System.out.println(p.product(2,4,3));
+        System.out.println(p.product(1.2,3.5));
 
     }
 
